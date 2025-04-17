@@ -12,7 +12,7 @@ This service is designed for publicly serving files from securely accessed servi
   - Automatic fallback to secondary storage when files are not found locally
 
 - **Smart Caching**
-  - In-memory cache for the last 1000 accessed images
+  - In-memory cache for the last default 1000 (configured) accessed images
   - FIFO (First-In-First-Out) cache eviction policy
   - Automatic cache population from storage
 
