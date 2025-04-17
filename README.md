@@ -1,4 +1,4 @@
-# Image Provider Service
+# Kartex Image Provider Service
 
 A high-performance image handling service that provides efficient storage, retrieval, and conversion of images. The service automatically converts all images to WebP format for optimal performance and storage efficiency.
 This service is designed for publicly serving files from securely accessed services like S3. Regardless of the original image format stored in secure S3, it always delivers a compressed WebP version, with memory first efficiency as the top priority.
